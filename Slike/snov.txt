@@ -1,0 +1,7 @@
+Chomsky Hierarchy -> zdruzuje razrede 'formal grammers', kateri povejo kako tvoriti String v abecedi tega jezika
+po pravilni hirarhiji (https://en.wikipedia.org/wiki/Chomsky_hierarchy)
+
+-Context Free Grammar(CFG) -> uporaba formal grammars, akteri uzame set of Atomic Pices calles alphabet.
+Nato definira neskonco stevilo Striingov kareti so v grammerju
+
+Uporabljam opravila ki se imenujejo 'productions', ker producirajo stringe v grammerju

@@ -37,7 +37,7 @@ public class Lox {
         }
     }
 
-    // printing tokens the scanner will emit
+        // printing tokens the scanner will emit
     private static void run(String source) {
         Scanner scanner = new Scanner(source);
         List<Token> tokens = scanner.scanTokens();
@@ -59,7 +59,7 @@ public class Lox {
         hadError = true;
     }
 
-    static void main(String[] args) throws IOException {
+     static void main(String[] args) throws IOException {
         if (args.length > 1) {
             System.out.println("Usage: jlox [script]");
             System.exit(64);
