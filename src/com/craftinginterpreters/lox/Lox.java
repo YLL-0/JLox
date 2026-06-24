@@ -59,7 +59,7 @@ public class Lox {
         hadError = true;
     }
 
-     static void main(String[] args) throws IOException {
+     public static void main(String[] args) throws IOException {
         if (args.length > 1) {
             System.out.println("Usage: jlox [script]");
             System.exit(64);
